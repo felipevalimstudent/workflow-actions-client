@@ -1,5 +1,5 @@
 name: 'Workflow using Checkout and Install nmon action'
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
