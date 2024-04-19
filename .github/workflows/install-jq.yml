@@ -1,0 +1,6 @@
+name: 'Workflow using Install jq workflow'
+on: [push, pull_request]
+
+jobs:
+  call-install-jq:
+    uses: felipevalimstudent/workflow-actions-server/.github/workflows/reusable-install-jq@main
