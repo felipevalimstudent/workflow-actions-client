@@ -1,0 +1,10 @@
+name: 'Workflow using Checkout and Install nmon action'
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Use Checkout and Install nmon action
+      uses: felipevalimstudent/.github/actions/composite-action
