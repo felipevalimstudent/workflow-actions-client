@@ -1,4 +1,4 @@
-name: 'Workflow using Checkout and Install nmon action'
+name: 'Install nmon'
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
@@ -6,5 +6,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    - name: List files
+      run: ls -al
     - name: Install Nmon
       uses: felipevalimstudent/workflow-actions-server/.github/composite-action@main
