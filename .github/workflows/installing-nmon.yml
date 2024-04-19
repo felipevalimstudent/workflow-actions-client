@@ -7,4 +7,4 @@ jobs:
 
     steps:
     - name: Install Nmon
-      uses: felipevalimstudent/workflow-actions-server/.github/actions/composite-action@main
+      uses: felipevalimstudent/workflow-actions-server/.github/composite-action@main
