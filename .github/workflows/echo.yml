@@ -1,5 +1,5 @@
 name: 'Workflow using Echo Message workflow'
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   call-echo-message:
