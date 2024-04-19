@@ -1,4 +1,4 @@
-name: 'Workflow using Install jq workflow'
+name: 'Install jq'
 on: [push, pull_request, workflow_dispatch]
 
 jobs:
