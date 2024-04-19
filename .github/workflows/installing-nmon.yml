@@ -7,4 +7,4 @@ jobs:
 
     steps:
     - name: Use Checkout and Install nmon action
-      uses: felipevalimstudent/.github/actions/composite-action
+      uses: felipevalimstudent/workflow-actions-server/.github/actions/composite-action@main
