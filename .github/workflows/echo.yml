@@ -1,0 +1,8 @@
+name: 'Workflow using Echo Message workflow'
+on: [push, pull_request]
+
+jobs:
+  call-echo-message:
+    uses: felipevalimstudent/workflow-actions-server/.github/workflows/reusable-echo.yml@main
+    with:
+      message: 'Hello, world!'
